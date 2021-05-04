@@ -13,6 +13,7 @@ public class GameScene : MonoBehaviour
     {
         timeRemaining = PlayerPrefs.GetFloat("time");
         PlayerPrefs.SetInt("score", 0);
+        Unpause();
     }
 
     void Update()

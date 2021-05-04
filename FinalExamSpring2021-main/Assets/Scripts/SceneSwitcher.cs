@@ -15,6 +15,6 @@ public class SceneSwitcher : MonoBehaviour
 
     public void EndGame()
     {
-        Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
